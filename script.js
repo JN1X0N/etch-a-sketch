@@ -52,8 +52,8 @@ function createGrid(size) {
         row.classList = `row-${i}`;
         row.style.display = "flex";
         row.style.flexDirection = "row";
+        row.style.width = "1000px";
         row.style.justifyContent = "center";
-        row.style.width = "100%";
         row.style.height = `${100/size}%`;
         for (let j = 0; j < size; j++) {
             let cell = document.createElement("div");
